@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EB5B2E05331DBAF1C5227E4 /* Pods_IntroductionToHeatlhKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649AEB5E726078429D6CE8F9 /* Pods_IntroductionToHeatlhKit.framework */; };
+		8A01528E1E7ED5CD00F35F0A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A01528D1E7ED5CD00F35F0A /* User.swift */; };
 		8A0A9E7A1E7D6AC30034F0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A9E791E7D6AC30034F0F7 /* AppDelegate.swift */; };
 		8A0A9E7C1E7D6AC30034F0F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A9E7B1E7D6AC30034F0F7 /* ViewController.swift */; };
 		8A0A9E7F1E7D6AC30034F0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A9E7D1E7D6AC30034F0F7 /* Main.storyboard */; };
 		8A0A9E811E7D6AC30034F0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A9E801E7D6AC30034F0F7 /* Assets.xcassets */; };
 		8A0A9E841E7D6AC30034F0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A9E821E7D6AC30034F0F7 /* LaunchScreen.storyboard */; };
-		8A0A9E8C1E7D6DE30034F0F7 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A9E8B1E7D6DE30034F0F7 /* GoogleService-Info (2).plist */; };
+		8A0A9E8E1E7DA1070034F0F7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A9E8D1E7DA1070034F0F7 /* LoginViewController.swift */; };
+		8A0A9E901E7DA1190034F0F7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A9E8F1E7DA1190034F0F7 /* SignUpViewController.swift */; };
+		8A0A9E921E7DA1290034F0F7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A9E911E7DA1290034F0F7 /* ProfileViewController.swift */; };
+		8A0A9E941E7DA13D0034F0F7 /* RankingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A9E931E7DA13D0034F0F7 /* RankingsViewController.swift */; };
+		8A0A9E961E7DA15B0034F0F7 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A9E951E7DA15B0034F0F7 /* Authentication.storyboard */; };
+		8A0A9E9C1E7E51E30034F0F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A9E9B1E7E51E30034F0F7 /* GoogleService-Info.plist */; };
+		8A0A9E9F1E7E53CE0034F0F7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0A9E9E1E7E53CE0034F0F7 /* HealthKit.framework */; };
+		8A0A9EA11E7E58900034F0F7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0A9EA01E7E588F0034F0F7 /* CoreMotion.framework */; };
+		8A0A9EA31E7E58990034F0F7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0A9EA21E7E58990034F0F7 /* CoreLocation.framework */; };
+		8A0A9EA51E7E877F0034F0F7 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A9EA41E7E877E0034F0F7 /* CustomTabBarViewController.swift */; };
+		8A221D231E7ECFE700A942E5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A221D221E7ECFE700A942E5 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39BA8E1CE19A07279009FE55 /* Pods-IntroductionToHeatlhKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntroductionToHeatlhKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntroductionToHeatlhKit/Pods-IntroductionToHeatlhKit.debug.xcconfig"; sourceTree = "<group>"; };
+		649AEB5E726078429D6CE8F9 /* Pods_IntroductionToHeatlhKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntroductionToHeatlhKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		759F90D5A41598AEF7CC91AF /* Pods-IntroductionToHeatlhKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntroductionToHeatlhKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntroductionToHeatlhKit/Pods-IntroductionToHeatlhKit.release.xcconfig"; sourceTree = "<group>"; };
+		8A01528D1E7ED5CD00F35F0A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8A0A9E761E7D6AC30034F0F7 /* IntroductionToHeatlhKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroductionToHeatlhKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0A9E791E7D6AC30034F0F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A0A9E7B1E7D6AC30034F0F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +39,18 @@
 		8A0A9E801E7D6AC30034F0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A0A9E831E7D6AC30034F0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A0A9E851E7D6AC30034F0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A0A9E8B1E7D6DE30034F0F7 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (2).plist"; path = "../../../Downloads/GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		8A0A9E8D1E7DA1070034F0F7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8A0A9E8F1E7DA1190034F0F7 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8A0A9E911E7DA1290034F0F7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8A0A9E931E7DA13D0034F0F7 /* RankingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsViewController.swift; sourceTree = "<group>"; };
+		8A0A9E951E7DA15B0034F0F7 /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		8A0A9E9B1E7E51E30034F0F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8A0A9E9D1E7E53CC0034F0F7 /* IntroductionToHeatlhKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntroductionToHeatlhKit.entitlements; sourceTree = "<group>"; };
+		8A0A9E9E1E7E53CE0034F0F7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		8A0A9EA01E7E588F0034F0F7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8A0A9EA21E7E58990034F0F7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8A0A9EA41E7E877E0034F0F7 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBarViewController.swift; path = ../CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		8A221D221E7ECFE700A942E5 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +58,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0A9EA31E7E58990034F0F7 /* CoreLocation.framework in Frameworks */,
+				8A0A9EA11E7E58900034F0F7 /* CoreMotion.framework in Frameworks */,
+				7EB5B2E05331DBAF1C5227E4 /* Pods_IntroductionToHeatlhKit.framework in Frameworks */,
+				8A0A9E9F1E7E53CE0034F0F7 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BC38D17E9E1F72651B179FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39BA8E1CE19A07279009FE55 /* Pods-IntroductionToHeatlhKit.debug.xcconfig */,
+				759F90D5A41598AEF7CC91AF /* Pods-IntroductionToHeatlhKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8A0A9E6D1E7D6AC20034F0F7 = {
 			isa = PBXGroup;
 			children = (
 				8A0A9E781E7D6AC30034F0F7 /* IntroductionToHeatlhKit */,
 				8A0A9E771E7D6AC30034F0F7 /* Products */,
+				6BC38D17E9E1F72651B179FB /* Pods */,
+				ED95D81F58B348E3CBE00DBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,59 @@
 		8A0A9E781E7D6AC30034F0F7 /* IntroductionToHeatlhKit */ = {
 			isa = PBXGroup;
 			children = (
+				8A0A9E9D1E7E53CC0034F0F7 /* IntroductionToHeatlhKit.entitlements */,
+				8A0A9E991E7DA1A60034F0F7 /* Supports */,
+				8A0A9E981E7DA18D0034F0F7 /* Authentication */,
+				8A0A9E9A1E7DA1B20034F0F7 /* Main */,
+			);
+			path = IntroductionToHeatlhKit;
+			sourceTree = "<group>";
+		};
+		8A0A9E981E7DA18D0034F0F7 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8A0A9E951E7DA15B0034F0F7 /* Authentication.storyboard */,
+				8A0A9E8D1E7DA1070034F0F7 /* LoginViewController.swift */,
+				8A0A9E8F1E7DA1190034F0F7 /* SignUpViewController.swift */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		8A0A9E991E7DA1A60034F0F7 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
 				8A0A9E791E7D6AC30034F0F7 /* AppDelegate.swift */,
-				8A0A9E7B1E7D6AC30034F0F7 /* ViewController.swift */,
-				8A0A9E7D1E7D6AC30034F0F7 /* Main.storyboard */,
 				8A0A9E801E7D6AC30034F0F7 /* Assets.xcassets */,
 				8A0A9E821E7D6AC30034F0F7 /* LaunchScreen.storyboard */,
 				8A0A9E851E7D6AC30034F0F7 /* Info.plist */,
-				8A0A9E8B1E7D6DE30034F0F7 /* GoogleService-Info (2).plist */,
+				8A0A9E9B1E7E51E30034F0F7 /* GoogleService-Info.plist */,
 			);
-			path = IntroductionToHeatlhKit;
+			name = Supports;
+			sourceTree = "<group>";
+		};
+		8A0A9E9A1E7DA1B20034F0F7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8A0A9E7D1E7D6AC30034F0F7 /* Main.storyboard */,
+				8A0A9EA41E7E877E0034F0F7 /* CustomTabBarViewController.swift */,
+				8A0A9E7B1E7D6AC30034F0F7 /* ViewController.swift */,
+				8A0A9E931E7DA13D0034F0F7 /* RankingsViewController.swift */,
+				8A0A9E911E7DA1290034F0F7 /* ProfileViewController.swift */,
+				8A221D221E7ECFE700A942E5 /* TableViewCell.swift */,
+				8A01528D1E7ED5CD00F35F0A /* User.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		ED95D81F58B348E3CBE00DBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A0A9EA21E7E58990034F0F7 /* CoreLocation.framework */,
+				8A0A9EA01E7E588F0034F0F7 /* CoreMotion.framework */,
+				8A0A9E9E1E7E53CE0034F0F7 /* HealthKit.framework */,
+				649AEB5E726078429D6CE8F9 /* Pods_IntroductionToHeatlhKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A0A9E881E7D6AC30034F0F7 /* Build configuration list for PBXNativeTarget "IntroductionToHeatlhKit" */;
 			buildPhases = (
+				6FA37E242003B640F307C3C4 /* [CP] Check Pods Manifest.lock */,
 				8A0A9E721E7D6AC30034F0F7 /* Sources */,
 				8A0A9E731E7D6AC30034F0F7 /* Frameworks */,
 				8A0A9E741E7D6AC30034F0F7 /* Resources */,
+				3E9CBD15797EAC8A32FF763D /* [CP] Embed Pods Frameworks */,
+				A0D6A578AF9F8248A1655498 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -101,6 +190,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = H743MSM342;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,22 +224,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A0A9E8C1E7D6DE30034F0F7 /* GoogleService-Info (2).plist in Resources */,
 				8A0A9E841E7D6AC30034F0F7 /* LaunchScreen.storyboard in Resources */,
 				8A0A9E811E7D6AC30034F0F7 /* Assets.xcassets in Resources */,
+				8A0A9E9C1E7E51E30034F0F7 /* GoogleService-Info.plist in Resources */,
 				8A0A9E7F1E7D6AC30034F0F7 /* Main.storyboard in Resources */,
+				8A0A9E961E7DA15B0034F0F7 /* Authentication.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E9CBD15797EAC8A32FF763D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntroductionToHeatlhKit/Pods-IntroductionToHeatlhKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA37E242003B640F307C3C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D6A578AF9F8248A1655498 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntroductionToHeatlhKit/Pods-IntroductionToHeatlhKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A0A9E721E7D6AC30034F0F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0A9E8E1E7DA1070034F0F7 /* LoginViewController.swift in Sources */,
+				8A221D231E7ECFE700A942E5 /* TableViewCell.swift in Sources */,
 				8A0A9E7C1E7D6AC30034F0F7 /* ViewController.swift in Sources */,
+				8A0A9E921E7DA1290034F0F7 /* ProfileViewController.swift in Sources */,
+				8A0A9E901E7DA1190034F0F7 /* SignUpViewController.swift in Sources */,
+				8A01528E1E7ED5CD00F35F0A /* User.swift in Sources */,
+				8A0A9EA51E7E877F0034F0F7 /* CustomTabBarViewController.swift in Sources */,
 				8A0A9E7A1E7D6AC30034F0F7 /* AppDelegate.swift in Sources */,
+				8A0A9E941E7DA13D0034F0F7 /* RankingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +414,10 @@
 		};
 		8A0A9E891E7D6AC30034F0F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39BA8E1CE19A07279009FE55 /* Pods-IntroductionToHeatlhKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IntroductionToHeatlhKit/IntroductionToHeatlhKit.entitlements;
 				DEVELOPMENT_TEAM = H743MSM342;
 				INFOPLIST_FILE = IntroductionToHeatlhKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -274,8 +429,10 @@
 		};
 		8A0A9E8A1E7D6AC30034F0F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 759F90D5A41598AEF7CC91AF /* Pods-IntroductionToHeatlhKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IntroductionToHeatlhKit/IntroductionToHeatlhKit.entitlements;
 				DEVELOPMENT_TEAM = H743MSM342;
 				INFOPLIST_FILE = IntroductionToHeatlhKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
